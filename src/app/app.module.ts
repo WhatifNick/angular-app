@@ -9,6 +9,8 @@ import { UiModule } from './ui/ui.module';
 import { CalendarComponent } from './calendar/calendar.component';
 import { EditorComponent } from './editor/editor.component';
 
+import { WeatherModule } from './weather/weather.module';
+
 
 
 @NgModule({
@@ -24,6 +26,7 @@ import { EditorComponent } from './editor/editor.component';
     BrowserModule,
     AppRoutingModule,
     UiModule,
+    WeatherModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
