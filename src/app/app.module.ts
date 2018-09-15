@@ -3,14 +3,27 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { TableComponent } from './table/table.component';
+import { UiModule } from './ui/ui.module';
+import { CalendarComponent } from './calendar/calendar.component';
+import { EditorComponent } from './editor/editor.component';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    TableComponent,
+    CalendarComponent,
+    EditorComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    UiModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
