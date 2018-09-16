@@ -1,0 +1,10 @@
+
+<div class="weather">
+  <img src="../../assets/images/weather.png" alt="Weather Icon" class="weather-icon">
+  <br /><br />
+  <h4>Here was supposed to be a weather chart using Chart.js, but I had issues accessing the API. Check console for further info.</h4>
+</div>
+
+<div *ngIf="chart">
+  <canvas id="canvas">{{ chart }}</canvas>
+</div>
