@@ -6,9 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { TableComponent } from './table/table.component';
 import { UiModule } from './ui/ui.module';
-import { CalendarComponent } from './calendar/calendar.component';
-import { EditorComponent } from './editor/editor.component';
-
 import { WeatherModule } from './weather/weather.module';
 
 
@@ -18,8 +15,6 @@ import { WeatherModule } from './weather/weather.module';
     AppComponent,
     HomeComponent,
     TableComponent,
-    CalendarComponent,
-    EditorComponent,
 
   ],
   imports: [
